@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Landing Page</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">Landing Page</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<span><h1>Learning Portal</h1></span>
+			<button>
+				<a href=
+"#">
+					Explore More
+				</a>
+			</button>
+		</div>
+		<div class="side2">
+			<img src=
+"https://img.myloview.com/stickers/programmer-semi-flat-color-vector-character-student
+-figure-sitting-person-on-white-man-at-computer-desk-coding-isolated-modern-cartoon-style-illustration
+-for-graphic-design-and-animation-700-268774166.jpg"
+				width="700">
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+		<div class="content">
+			<div class="title">
+				<span>Courses Provided</span>
+			</div>
+			<div class="boxes">
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							DSA
+						</a>
+					</div>
+					<p>
+						The term DSA stands for Data
+						Structures and Algorithms. As
+						the name itself suggests, it
+						is a combination of two
+						separate yet interrelated
+						topics.In this course we will learn you various DSA Concepts like Arrays,Stacks,Linked Lists and many more.
+					</p>
+				</div>
+                
+				<div class="box">
+
+					<div class="topic">
+						<a href="" target="_blank">
+							Web Development
+						</a>
+					</div>
+					<p>
+
+					    In this course we will learn you HTML,
+                        CSS,JavaScripts and other web development
+                        technologies to build web applications. 
+						
+					</p>
+				</div>
+
+                <div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							Android Development
+						</a>
+					</div>
+					<p>
+                        This course provides teaching on android development 
+                        which offers app developers structured
+                        code modules to divide projects into units of
+                        functionality for independent building, testing
+                        and debugging. 
+					</p>
+				</div>
+
+                <div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+						    Machine Learning
+						</a>
+					</div>
+					<p>
+                        Learn to Build machine learning models in Python
+                        using popular machine learning libraries NumPy and 
+                        scikit-learn.Build and train supervised machine learning models
+                        for prediction and binary classification tasks, including linear regression and logistic regression
+					</p>
+				</div>
+                <div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							Python
+						</a>
+					</div>
+					<p>
+                        We will introduce fundamental programming concepts including 
+                        data structures, networked application program interfaces, and
+                        databases, using the Python programming language. In the Capstone 
+                        Project, you’ll use the technologies learned throughout the Specialization
+                        to design and create your own  applications for data retrieval, processing.
+					</p>
+				</div>
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							MySQL 
+						</a>
+					</div>
+					<p>
+						You will learn SQl database concepts and
+                        get to know basics of various SQL queries to
+                        gain knowledge on MySQL database.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Sign Up</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Sign Up</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+							<span>
+								More Information
+							</span>
+						</div>
+						<div class="content1">
+							Greetings to all the learners out there!
+							We welcome you to the platform where we
+							consistently strive to offer the best
+							of education. This platform has been
+							designed for every enthusiastic student wishing to
+							expand their knowledge, share their
+							knowledge and is ready to grab their
+							dream job. We have millions of articles,
+							live as well as online courses, thousands
+							of tutorials and much more just for the
+							you.Thank you for choosingand supporting us!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<div class="footer">
+			<span>
+				Created By
+				<a href="#"
+					target="_blank">
+					TechLearners
+				</a>
+			</span>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
